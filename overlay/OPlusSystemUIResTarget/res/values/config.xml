@@ -8,4 +8,7 @@
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
 </resources>
