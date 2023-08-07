@@ -10,7 +10,7 @@ include device/oneplus/sm6375-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/oscaro
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 480
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
