@@ -1,10 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 (LE2115_13.1.0.593(EX01)).
+## are from OnePlus Nord CE 2 Lite 5G (CPH2381_11.C.29).
 
 abl.img;AB
-aop.img;AB
 bluetooth.img;AB
-cpucp.img;AB
+core_nhlos.img;AB
 devcfg.img;AB
 dsp.img;AB
 engineering_cdt.img;AB
@@ -13,12 +12,10 @@ hyp.img;AB
 imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
-multiimgoem.img;AB
 oplus_sec.img;AB
 oplusstanvbk.img;AB
 qupfw.img;AB
-qweslicstore.img;AB
-shrm.img;AB
+rpm.img;AB
 splash.img;AB
 tz.img;AB
 uefisecapp.img;AB
