@@ -26,7 +26,7 @@ from extract_utils.utils import (
 
 namespace_imports = [
     'hardware/oplus',
-    'vendor/oneplus/sm8350-common',
+    'vendor/oneplus/sm6375-common',
     'vendor/qcom/opensource/display',
 ]
 
@@ -109,7 +109,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'lemonade',
+    'oscar',
     'oneplus',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
@@ -119,6 +119,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8350-common', module.vendor
+        module, 'sm6375-common', module.vendor
     )
     utils.run()
