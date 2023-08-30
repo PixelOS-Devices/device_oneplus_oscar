@@ -204,7 +204,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>0.0</item>
+        <item>1.0</item>
         <item>2.1</item>
         <item>2.31</item>
         <item>2.63</item>
@@ -276,7 +276,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
+        <item>2</item>
         <item>4</item>
         <item>8</item>
         <item>12</item>
@@ -363,7 +363,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.001954079</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.01</item>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
