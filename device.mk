@@ -10,8 +10,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
+    KeyHandler
 
 # Audio
 PRODUCT_COPY_FILES += \
