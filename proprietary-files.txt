@@ -908,6 +908,7 @@ odm/lib64/libstfd_mobile_api.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libYTCommon.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode
@@ -1098,6 +1099,11 @@ vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+
+# Camera arcsoft - MT2111_13.1.0.592(EX01)
+odm/lib64/libarcsoft_hdr_denoise_api_v4.so|d79d33297fcd40081e6c266920e922c28d0a76ce
+odm/lib64/libarcsoft_high_dynamic_range_v4.so|bf67fcb116a038db5e6915387eb9b71615c4b3e0
+odm/lib64/libarcsoft_smart_denoise_v4.so|5a1f4a34c9ed5c0c27f83aee7ddd44880e4e9899
 
 # CVP firmware
 vendor/firmware/evass.b00
