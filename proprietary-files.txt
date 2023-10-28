@@ -1,5 +1,7 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus Nord CE 2 Lite 5G (CPH2381_11.C.32).
+## Sections labeled with 'REALME' are from
+## Realme 9 Pro (RMX3471_11_C.20).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -10,6 +12,16 @@ odm/etc/acdbdata/Handset_cal.acdb
 odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
+
+# ACDB - REALME
+odm/etc/acdbdata/MOS/Audio_Parameter_Version.txt
+odm/etc/acdbdata/MOS/Bluetooth_cal.acdb
+odm/etc/acdbdata/MOS/General_cal.acdb
+odm/etc/acdbdata/MOS/Global_cal.acdb
+odm/etc/acdbdata/MOS/Handset_cal.acdb
+odm/etc/acdbdata/MOS/Hdmi_cal.acdb
+odm/etc/acdbdata/MOS/Headset_cal.acdb
+odm/etc/acdbdata/MOS/Speaker_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
@@ -39,6 +51,10 @@ odm/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so
 odm/lib/rfsa/adsp/libvdblurless_4.6.10J_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
+
+# ADSP Modules - REALME
+odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so
+odm/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so
 
 # Audio
 odm/lib/libaudioEngineerTest.so
@@ -78,6 +94,40 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Bluetooth Firmware
 odm/etc/bt/apnv11.bin
+
+# Bluetooth Firmware - REALME
+odm/etc/bt/apnv11.bin:odm/oscarr/etc/bt/apnv11.bin
+
+# Camera - REALME
+odm/etc/camera/config/ov08d10
+odm/etc/camera/arcsoft_distortionParams.bin:odm/oscarr/etc/camera/arcsoft_distortionParams.bin
+odm/lib64/camera/com.qti.sensor.ov08d10.so
+odm/lib64/camera/com.qti.tuned.ov08d10.bin
+odm/etc/camera/CameraHWConfiguration.config:odm/oscarr/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/capture_neonportrait_params.json:odm/oscarr/etc/camera/capture_neonportrait_params.json
+odm/etc/camera/config/camera_unit_config:odm/oscarr/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf:odm/oscarr/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/gc02m:odm/oscarr/etc/camera/config/gc02m
+odm/etc/camera/config/oplus_camera_algo_switch_config:odm/oscarr/etc/camera/config/oplus_camera_algo_switch_config
+odm/etc/camera/config/oplus_camera_aps_config:odm/oscarr/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config:odm/oscarr/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/ov64b:odm/oscarr/etc/camera/config/ov64b
+odm/etc/camera/config/sy_imx471:odm/oscarr/etc/camera/config/sy_imx471
+odm/etc/camera/dualcal_golden.bin:odm/oscarr/etc/camera/dualcal_golden.bin
+odm/etc/camera/fb_default:odm/oscarr/etc/camera/fb_default
+odm/etc/camera/fwk_config.json:odm/oscarr/etc/camera/fwk_config.json
+odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:odm/oscarr/etc/camera/pf/PerfectColorSet/normal/platformSet.ini
+odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini:odm/oscarr/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini
+odm/etc/camera/pfb_bin/SkinCalcHue.bin:odm/oscarr/etc/camera/pfb_bin/SkinCalcHue.bin
+odm/etc/camera/pfb_bin/SkinHueUnify.bin:odm/oscarr/etc/camera/pfb_bin/SkinHueUnify.bin
+odm/etc/camera/selfbokehParam.json:odm/oscarr/etc/camera/selfbokehParam.json
+odm/etc/camera/selfbokehmodel.bin:odm/oscarr/etc/camera/selfbokehmodel.bin
+odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.ov08d10.bin
+odm/lib64/camera/com.qti.sensormodule.ov64b.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.ov64b.bin
+odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.sy_imx471.bin
+odm/lib64/camera/com.qti.tuned.gc02m1.bin:odm/oscarr/lib64/camera/com.qti.tuned.gc02m1.bin
+odm/lib64/camera/com.qti.tuned.imx471.bin:odm/oscarr/lib64/camera/com.qti.tuned.imx471.bin
+odm/lib64/camera/com.qti.tuned.ov64b.bin:odm/oscarr/lib64/camera/com.qti.tuned.ov64b.bin
 
 # Camera
 odm/etc/camera/aicolor/duallut_background.bmp
@@ -1195,6 +1245,16 @@ odm/etc/sensor/config/holi_icm4x6xx.json
 odm/etc/sensor/config/holi_mxg4300_0.json
 odm/etc/sensor/config/holi_qrd_mmc56x3x.json
 odm/etc/sensor/sensor_config.json
+
+# Sensors - REALME
+odm/etc/sensor/config/holi_bma4_0.json
+odm/etc/sensor/config/holi_bmi3x0_0.json:odm/oscarr/etc/sensor/config/holi_bmi3x0_0.json
+odm/etc/sensor/config/holi_icm4x607.json
+odm/etc/sensor/config/holi_qrd_bma4_0.json
+odm/etc/sensor/config/holi_qrd_bmi26x_0.json
+odm/etc/sensor/config/holi_qrd_sc7a20_0.json
+odm/etc/sensor/config/holi_sc7a20_0.json
+odm/etc/sensor/sensor_config.json:odm/oscarr/etc/sensor/sensor_config.json
 
 # VPU firmware
 vendor/firmware/vpu20_1v.b01

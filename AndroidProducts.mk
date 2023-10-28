@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_oscaro.mk
+    $(LOCAL_DIR)/aosp_oscar.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_oscaro-user \
-    aosp_oscaro-userdebug \
-    aosp_oscaro-eng
+    aosp_oscar-user \
+    aosp_oscar-userdebug \
+    aosp_oscar-eng

@@ -14,14 +14,16 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info_intcodec.xml \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_platform_info.xml
+    $(LOCAL_PATH)/audio/oscaro/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/oscaro/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
+    $(LOCAL_PATH)/audio/oscaro/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/audio/oscaro/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
+    $(LOCAL_PATH)/audio/oscarr/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/oscarr/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/oscarr/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/oscarr/etc/mixer_paths.xml \
+    $(LOCAL_PATH)/audio/oscarr/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/oscarr/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/audio/oscarr/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/oscarr/etc/sound_trigger_platform_info.xml \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/oscaro,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/oscarr,$(TARGET_COPY_OUT_VENDOR)/oscarr/etc/audio/sku_holi)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -30,6 +32,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Display
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.brightness.low.gamma=true
+
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.overlay.rc
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -56,8 +62,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
-    OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OscaroSettingsProviderResTarget \
+    OscarrSettingsProviderResTarget \
+    OPlusSystemUIResTarget \
+    OscarrPowerProfileOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -67,4 +75,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/oneplus/sm6375-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/oscaro/oscaro-vendor.mk)
+$(call inherit-product, vendor/oneplus/oscar/oscar-vendor.mk)
