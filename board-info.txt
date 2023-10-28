@@ -1,1 +1,1 @@
-require board=holi|OP535DL1
+require board=holi|OP535DL1|RE54CBL1

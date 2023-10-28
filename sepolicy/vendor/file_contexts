@@ -1,0 +1,4 @@
+# OverlayFS
+/vendor/oscarr(/.*)?                    u:object_r:vendor_configs_file:s0
+/odm/oscarr(/.*)?                       u:object_r:vendor_configs_file:s0
+/odm/oscarr/lib64(/.*)?                 u:object_r:vendor_hal_file:s0

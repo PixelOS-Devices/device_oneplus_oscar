@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=oscaro
+export DEVICE=oscar
 export DEVICE_COMMON=sm6375-common
 export VENDOR=oneplus
 

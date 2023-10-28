@@ -1,4 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
+## Realme 9 Pro (RMX3471_11_C.20).
+## Sections labeled with 'REALME' are from
 ## are from OnePlus Nord CE 2 Lite 5G (CPH2381_11.C.32).
 
 # ACDB
@@ -10,6 +12,16 @@ odm/etc/acdbdata/Handset_cal.acdb
 odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
+
+# ACDB - REALME
+odm/etc/acdbdata/Audio_Parameter_Version.txt:odm/oscarr/etc/acdbdata/Audio_Parameter_Version.txt|2274683e524e3f723bd73e42f9c7e1d78c29e197
+odm/etc/acdbdata/Bluetooth_cal.acdb:odm/oscarr/etc/acdbdata/Bluetooth_cal.acdb|f52022b13b1cd927526198031d809f3529146ab0
+odm/etc/acdbdata/General_cal.acdb:odm/oscarr/etc/acdbdata/General_cal.acdb|6a669a1e5a149202145e03259b62bbff09316459
+odm/etc/acdbdata/Global_cal.acdb:odm/oscarr/etc/acdbdata/Global_cal.acdb|b9f6f2c06a2a89fbd28f931de095a8d59815b91f
+odm/etc/acdbdata/Handset_cal.acdb:odm/oscarr/etc/acdbdata/Handset_cal.acdb|841e4f63a05c0eccc43835d3c12e57b1eb5be471
+odm/etc/acdbdata/Hdmi_cal.acdb:odm/oscarr/etc/acdbdata/Hdmi_cal.acdb|5313df667ca5fe30df4d4f2cd3070f7f27464e35
+odm/etc/acdbdata/Headset_cal.acdb:odm/oscarr/etc/acdbdata/Headset_cal.acdb|096bab1a736f2c9fbaeed2302c1974d2e94aabe9
+odm/etc/acdbdata/Speaker_cal.acdb:odm/oscarr/etc/acdbdata/Speaker_cal.acdb|7902fb0a81ab6325401ce9ed128371d9a14baa20
 
 # ADSP modules
 odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
@@ -39,6 +51,10 @@ odm/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so
 odm/lib/rfsa/adsp/libvdblurless_4.6.10J_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
+
+# ADSP Modules - REALME
+odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so|7eaa96c39d888b3345125ed58d7a116bfe2ec8a8
+odm/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so|14b05604a1f98cb7917884d23f686d160697385f
 
 # Audio
 odm/lib/libaudioEngineerTest.so
@@ -78,6 +94,40 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Bluetooth Firmware
 odm/etc/bt/apnv11.bin
+
+# Bluetooth Firmware - REALME
+odm/etc/bt/apnv11.bin:odm/oscarr/etc/bt/apnv11.bin|a52aba7892bde67a8201c43509e1f7e335a4e133
+
+# Camera - REALME
+odm/etc/camera/CameraHWConfiguration.config:odm/oscarr/etc/camera/CameraHWConfiguration.config|0f79e7ebc41ccd05e13afe22adfada5eba92ffbb
+odm/etc/camera/arcsoft_distortionParams.bin:odm/oscarr/etc/camera/arcsoft_distortionParams.bin|c6fde672b8190597e929bb4274caea7a6ffeea40
+odm/etc/camera/capture_neonportrait_params.json:odm/oscarr/etc/camera/capture_neonportrait_params.json|fadbefccf516c0c67fd7839c9eda11b6b70d4825
+odm/etc/camera/config/camera_unit_config:odm/oscarr/etc/camera/config/camera_unit_config|2644119f20bec50dcc06c17ac755475c21a388f8
+odm/etc/camera/config/camera_unit_feature_config.protobuf:odm/oscarr/etc/camera/config/camera_unit_feature_config.protobuf|d9b0121a68c3b539aabb7074112eb2488dcc0ac0
+odm/etc/camera/config/gc02m:odm/oscarr/etc/camera/config/gc02m|1e16ee0bce7597b1ea32d0e1009ee02164c5e3f0
+odm/etc/camera/config/oplus_camera_algo_switch_config:odm/oscarr/etc/camera/config/oplus_camera_algo_switch_config|45ad0d70952cbe1427f4f799af242853f2d4cb18
+odm/etc/camera/config/oplus_camera_aps_config:odm/oscarr/etc/camera/config/oplus_camera_aps_config|85e0ed3db687ad4169bbdf12a1a6ce8907095d1a
+odm/etc/camera/config/oplus_camera_config:odm/oscarr/etc/camera/config/oplus_camera_config|8a666a28f3103cc6633c7e4ab6c2940e7ccfa18b
+odm/etc/camera/config/ov64b:odm/oscarr/etc/camera/config/ov64b|7192e1dd722ef5819ee7290fbac05f153e3a87b4
+odm/etc/camera/config/sy_imx471:odm/oscarr/etc/camera/config/sy_imx471|bd33265c84d994cbc6bd140829867f1d5439a93d
+odm/etc/camera/config/ov08d10|bf0f06e88ba5f4e5fb9edc0138241c558c6d4ddc
+odm/etc/camera/dualcal_golden.bin:odm/oscarr/etc/camera/dualcal_golden.bin|65b5b1a8044bc24c2720f3602adfaba207803d3c
+odm/etc/camera/fb_default:odm/oscarr/etc/camera/fb_default|d6f8f21064aa748e3857df1de2dbcec5da7bdd30
+odm/etc/camera/fwk_config.json:odm/oscarr/etc/camera/fwk_config.json|4759dbbcdf5683159f3f6bf075dc1dfb2aaab50e
+odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:odm/oscarr/etc/camera/pf/PerfectColorSet/normal/platformSet.ini|41746d838c7326b5f998e2e5bde89537902510de
+odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini:odm/oscarr/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini|41746d838c7326b5f998e2e5bde89537902510de
+odm/etc/camera/pfb_bin/SkinCalcHue.bin:odm/oscarr/etc/camera/pfb_bin/SkinCalcHue.bin|9762eada83df06c33299f69839cc565dc485ea8b
+odm/etc/camera/pfb_bin/SkinHueUnify.bin:odm/oscarr/etc/camera/pfb_bin/SkinHueUnify.bin|acdd446aac60dc504d9a8b03dfc096e384651d0a
+odm/etc/camera/selfbokehParam.json:odm/oscarr/etc/camera/selfbokehParam.json|f627e54d074c50d1e7df392aa9d6208f5163e827
+odm/etc/camera/selfbokehmodel.bin:odm/oscarr/etc/camera/selfbokehmodel.bin|f6d6087b8a9c091d5b812d8f2ea8c24bff3b6097
+odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.ov08d10.bin|72dd49719f337610556b86400f1a8b242c2ae997
+odm/lib64/camera/com.qti.sensormodule.ov64b.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.ov64b.bin|3786a950a1e057b21ffe9f23457f6dd4431d5b06
+odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:odm/oscarr/lib64/camera/com.qti.sensormodule.sy_imx471.bin|ab132205627692402924a4e6a5a7fca362eb1c34
+odm/lib64/camera/com.qti.tuned.gc02m1.bin:odm/oscarr/lib64/camera/com.qti.tuned.gc02m1.bin|19702c6900433e495a956391d7511e7376e2a14f
+odm/lib64/camera/com.qti.tuned.imx471.bin:odm/oscarr/lib64/camera/com.qti.tuned.imx471.bin|b08f8904fc34b5f1954d22897e68ba13740566f8
+odm/lib64/camera/com.qti.tuned.ov64b.bin:odm/oscarr/lib64/camera/com.qti.tuned.ov64b.bin|762baf56c1b7a13f4d879ad63d168b10a2757a8f
+odm/lib64/camera/com.qti.sensor.ov08d10.so|611782cb1adbea43a35f22651579da801d204e30
+odm/lib64/camera/com.qti.tuned.ov08d10.bin|78df046a8093310c9775ecdf2f60a2fe77fd2458
 
 # Camera
 odm/etc/camera/aicolor/duallut_background.bmp
@@ -1182,6 +1232,16 @@ odm/etc/sensor/config/holi_icm4x6xx.json
 odm/etc/sensor/config/holi_mxg4300_0.json
 odm/etc/sensor/config/holi_qrd_mmc56x3x.json
 odm/etc/sensor/sensor_config.json
+
+# Sensors - REALME
+odm/etc/sensor/config/holi_bmi3x0_0.json:odm/oscarr/etc/sensor/config/holi_bmi3x0_0.json|e617bb6356fa6799ec55be29ca046bd128b7eeae
+odm/etc/sensor/config/holi_bma4_0.json|7860f2fb2e546495d244a909746acd29f80130fd
+odm/etc/sensor/config/holi_icm4x607.json|bb0ae827c14358a000f82376edfdc8103a53a010
+odm/etc/sensor/config/holi_qrd_bma4_0.json|df12041d725ed793ba6490bfa1f9a471d014139f
+odm/etc/sensor/config/holi_qrd_bmi26x_0.json|e3ade40b83afb9ffe3f5002b3747913a9b1aa602
+odm/etc/sensor/config/holi_qrd_sc7a20_0.json|ad14768272b07410941c52347b67ddc54702d8a0
+odm/etc/sensor/config/holi_sc7a20_0.json|06ff549593f9788f101c479ba96ccffe4188b8b2
+odm/etc/sensor/sensor_config.json:odm/oscarr/etc/sensor/sensor_config.json|de3fc906fe93c0c1e6e6f4066b3d480abe944f96
 
 # VPU firmware
 vendor/firmware/vpu20_1v.b01
