@@ -1,7 +1,7 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
+## Are from OnePlus Nord CE 2 Lite 5G (CPH2381_14.0.0.200(EX01)).
 ## Realme 9 Pro (RMX3471_11_C.20).
 ## Sections labeled with 'REALME' are from
-## are from OnePlus Nord CE 2 Lite 5G (CPH2381_11.C.32).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -13,16 +13,6 @@ odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
-# ACDB - REALME
-odm/etc/acdbdata/Audio_Parameter_Version.txt:odm/oscarr/etc/acdbdata/Audio_Parameter_Version.txt|2274683e524e3f723bd73e42f9c7e1d78c29e197
-odm/etc/acdbdata/Bluetooth_cal.acdb:odm/oscarr/etc/acdbdata/Bluetooth_cal.acdb|f52022b13b1cd927526198031d809f3529146ab0
-odm/etc/acdbdata/General_cal.acdb:odm/oscarr/etc/acdbdata/General_cal.acdb|6a669a1e5a149202145e03259b62bbff09316459
-odm/etc/acdbdata/Global_cal.acdb:odm/oscarr/etc/acdbdata/Global_cal.acdb|b9f6f2c06a2a89fbd28f931de095a8d59815b91f
-odm/etc/acdbdata/Handset_cal.acdb:odm/oscarr/etc/acdbdata/Handset_cal.acdb|841e4f63a05c0eccc43835d3c12e57b1eb5be471
-odm/etc/acdbdata/Hdmi_cal.acdb:odm/oscarr/etc/acdbdata/Hdmi_cal.acdb|5313df667ca5fe30df4d4f2cd3070f7f27464e35
-odm/etc/acdbdata/Headset_cal.acdb:odm/oscarr/etc/acdbdata/Headset_cal.acdb|096bab1a736f2c9fbaeed2302c1974d2e94aabe9
-odm/etc/acdbdata/Speaker_cal.acdb:odm/oscarr/etc/acdbdata/Speaker_cal.acdb|7902fb0a81ab6325401ce9ed128371d9a14baa20
-
 # ADSP modules
 odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
@@ -31,8 +21,6 @@ odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel.so
-odm/lib/rfsa/adsp/libc++.so.1
-odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libhdr_skel.so
 odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
@@ -95,9 +83,6 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 # Bluetooth Firmware
 odm/etc/bt/apnv11.bin
 
-# Bluetooth Firmware - REALME
-odm/etc/bt/apnv11.bin:odm/oscarr/etc/bt/apnv11.bin|a52aba7892bde67a8201c43509e1f7e335a4e133
-
 # Camera - REALME
 odm/etc/camera/CameraHWConfiguration.config:odm/oscarr/etc/camera/CameraHWConfiguration.config|0f79e7ebc41ccd05e13afe22adfada5eba92ffbb
 odm/etc/camera/arcsoft_distortionParams.bin:odm/oscarr/etc/camera/arcsoft_distortionParams.bin|c6fde672b8190597e929bb4274caea7a6ffeea40
@@ -144,75 +129,12 @@ odm/etc/camera/config/gc02m
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov64b
 odm/etc/camera/config/sy_imx471
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
-odm/etc/camera/fb_model/fb_model/000.png
-odm/etc/camera/fb_model/fb_model/000_pre.bin
-odm/etc/camera/fb_model/fb_model/001.png
-odm/etc/camera/fb_model/fb_model/001_pre.bin
-odm/etc/camera/fb_model/fb_model/002.png
-odm/etc/camera/fb_model/fb_model/002_pre.bin
-odm/etc/camera/fb_model/fb_model/003.png
-odm/etc/camera/fb_model/fb_model/003_pre.bin
-odm/etc/camera/fb_model/fb_model/010.png
-odm/etc/camera/fb_model/fb_model/010_pre.bin
-odm/etc/camera/fb_model/fb_model/011.png
-odm/etc/camera/fb_model/fb_model/011_pre.bin
-odm/etc/camera/fb_model/fb_model/012.png
-odm/etc/camera/fb_model/fb_model/012_pre.bin
-odm/etc/camera/fb_model/fb_model/013.png
-odm/etc/camera/fb_model/fb_model/100.png
-odm/etc/camera/fb_model/fb_model/100_pre.bin
-odm/etc/camera/fb_model/fb_model/101.png
-odm/etc/camera/fb_model/fb_model/101_pre.bin
-odm/etc/camera/fb_model/fb_model/102.png
-odm/etc/camera/fb_model/fb_model/102_pre.bin
-odm/etc/camera/fb_model/fb_model/103.png
-odm/etc/camera/fb_model/fb_model/103_pre.bin
-odm/etc/camera/fb_model/fb_model/110.png
-odm/etc/camera/fb_model/fb_model/110_pre.bin
-odm/etc/camera/fb_model/fb_model/111.png
-odm/etc/camera/fb_model/fb_model/111_pre.bin
-odm/etc/camera/fb_model/fb_model/112.png
-odm/etc/camera/fb_model/fb_model/112_pre.bin
-odm/etc/camera/fb_model/fb_model/113.png
-odm/etc/camera/fb_model/fb_model/200.png
-odm/etc/camera/fb_model/fb_model/200_pre.bin
-odm/etc/camera/fb_model/fb_model/201.png
-odm/etc/camera/fb_model/fb_model/201_pre.bin
-odm/etc/camera/fb_model/fb_model/202.png
-odm/etc/camera/fb_model/fb_model/202_pre.bin
-odm/etc/camera/fb_model/fb_model/203.png
-odm/etc/camera/fb_model/fb_model/203_pre.bin
-odm/etc/camera/fb_model/fb_model/210.png
-odm/etc/camera/fb_model/fb_model/210_pre.bin
-odm/etc/camera/fb_model/fb_model/211.png
-odm/etc/camera/fb_model/fb_model/211_pre.bin
-odm/etc/camera/fb_model/fb_model/212.png
-odm/etc/camera/fb_model/fb_model/212_pre.bin
-odm/etc/camera/fb_model/fb_model/213.png
-odm/etc/camera/fb_model/fb_model/eyeBright.png
-odm/etc/camera/fb_model/fb_model/skinLUTs00.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs01.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs02.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs03.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs10.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs11.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs12.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs13.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_00.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_01.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_02.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_03.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_10.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_11.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_12.bin
-odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_13.bin
-odm/etc/camera/fb_model/fb_model/skinmask.bin
-odm/etc/camera/fb_model/fb_model/skinmask.png
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
 odm/etc/camera/fb_model/001.png
@@ -293,6 +215,7 @@ odm/etc/camera/filters_lut/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/ByW7g4bbf
 odm/etc/camera/filters_lut/filters_lut/ByYo3If
 odm/etc/camera/filters_lut/filters_lut/BycYf7WWz
+odm/etc/camera/filters_lut/filters_lut/Cold.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/DL_D_G4.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/DL_L_B6.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/Emerald.cube.rgb.bin
@@ -314,11 +237,13 @@ odm/etc/camera/filters_lut/filters_lut/SnapseedBright.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/Sy4uLSTgf
 odm/etc/camera/filters_lut/filters_lut/Syt2KeZZf
+odm/etc/camera/filters_lut/filters_lut/Texture-70.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/V03-food-2.0.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/V04-night-1.3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/V05-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/filters_lut/White.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/YoucamAdorable80.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/b-w-P8.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/black_gold.bin
@@ -344,6 +269,8 @@ odm/etc/camera/filters_lut/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/fuji-eterna-v2.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/fuji.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/filters_lut/gt-glazed-tile.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/filters_lut/jiari-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/jw_sun.CUBE.rgb.bin
@@ -430,6 +357,7 @@ odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/ByW7g4bbf
 odm/etc/camera/filters_lut/ByYo3If
 odm/etc/camera/filters_lut/BycYf7WWz
+odm/etc/camera/filters_lut/Cold.cube.rgb.bin
 odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin
 odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin
 odm/etc/camera/filters_lut/Emerald.cube.rgb.bin
@@ -451,11 +379,13 @@ odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin
 odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/Sy4uLSTgf
 odm/etc/camera/filters_lut/Syt2KeZZf
+odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin
 odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/White.cube.rgb.bin
 odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin
 odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin
 odm/etc/camera/filters_lut/black_gold.bin
@@ -481,6 +411,8 @@ odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin
 odm/etc/camera/filters_lut/fuji.cube.rgb.bin
 odm/etc/camera/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin
 odm/etc/camera/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin
@@ -867,6 +799,7 @@ odm/lib64/libFaceBeautyJni.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFilterWrapper.so
+odm/lib64/libImageWarpMask.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPLUS_SCPortrait.so
 odm/lib64/libPerfectColor.so
@@ -903,6 +836,7 @@ odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
+odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
 odm/lib64/libarcsoft_distortion_correction.so
@@ -932,7 +866,7 @@ odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_super_night_raw.so
 odm/lib64/libarcsoft_supernight.so
 odm/lib64/libc++_shared.so
-odm/lib64/libffmpeg_utils.so
+odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -946,6 +880,7 @@ odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboplusblur_capture_api.so
 odm/lib64/libormshalclient.so
+odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libosensehalclient.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
@@ -959,6 +894,8 @@ odm/lib64/libstfd_mobile_api.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libyuvwrapper.so
+odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode
@@ -1116,6 +1053,7 @@ vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmfec.so
 vendor/lib64/libmidasserviceintf.so
+vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
@@ -1140,6 +1078,7 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # CVP firmware
@@ -1171,15 +1110,13 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib/vendor.oplus.hardware.performance@1.0.so
 odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.capacitive.hal.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
@@ -1244,50 +1181,6 @@ odm/etc/sensor/config/holi_sc7a20_0.json|06ff549593f9788f101c479ba96ccffe4188b8b
 odm/etc/sensor/sensor_config.json:odm/oscarr/etc/sensor/sensor_config.json|de3fc906fe93c0c1e6e6f4066b3d480abe944f96
 
 # VPU firmware
-vendor/firmware/vpu20_1v.b01
-vendor/firmware/vpu20_1v.b02
-vendor/firmware/vpu20_1v.b03
-vendor/firmware/vpu20_1v.b04
-vendor/firmware/vpu20_1v.b05
-vendor/firmware/vpu20_1v.b06
-vendor/firmware/vpu20_1v.b07
-vendor/firmware/vpu20_1v.b08
-vendor/firmware/vpu20_1v.b09
-vendor/firmware/vpu20_1v.b10
-vendor/firmware/vpu20_1v.b11
-vendor/firmware/vpu20_1v.b12
-vendor/firmware/vpu20_1v.b13
-vendor/firmware/vpu20_1v.b14
-vendor/firmware/vpu20_1v.b15
-vendor/firmware/vpu20_1v.b16
-vendor/firmware/vpu20_1v.b17
-vendor/firmware/vpu20_1v.b18
-vendor/firmware/vpu20_1v.b19
-vendor/firmware/vpu20_1v.mbn
-vendor/firmware/vpu20_1v.mdt
-vendor/firmware/vpu20_1v_unsigned.mbn
-vendor/firmware/vpu20_2v.b01
-vendor/firmware/vpu20_2v.b02
-vendor/firmware/vpu20_2v.b03
-vendor/firmware/vpu20_2v.b04
-vendor/firmware/vpu20_2v.b05
-vendor/firmware/vpu20_2v.b06
-vendor/firmware/vpu20_2v.b07
-vendor/firmware/vpu20_2v.b08
-vendor/firmware/vpu20_2v.b09
-vendor/firmware/vpu20_2v.b10
-vendor/firmware/vpu20_2v.b11
-vendor/firmware/vpu20_2v.b12
-vendor/firmware/vpu20_2v.b13
-vendor/firmware/vpu20_2v.b14
-vendor/firmware/vpu20_2v.b15
-vendor/firmware/vpu20_2v.b16
-vendor/firmware/vpu20_2v.b17
-vendor/firmware/vpu20_2v.b18
-vendor/firmware/vpu20_2v.b19
-vendor/firmware/vpu20_2v.mbn
-vendor/firmware/vpu20_2v.mdt
-vendor/firmware/vpu20_2v_unsigned.mbn
 vendor/firmware/vpu20_4v.b01
 vendor/firmware/vpu20_4v.b02
 vendor/firmware/vpu20_4v.b03
