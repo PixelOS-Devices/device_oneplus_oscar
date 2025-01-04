@@ -39,12 +39,8 @@ odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 
 # Audio
-odm/lib/libaudioEngineerTest.so
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
-vendor/lib/hw/audio.primary.holi.so
-vendor/lib/liba2dpoffload.so:odm/lib/liba2dpoffload.so;MODULE_SUFFIX=_odm
-vendor/lib/libssrec.so:odm/lib/libssrec.so;MODULE_SUFFIX=_odm
 
 # Audio LVIMFS params
 odm/etc/lvimfs_params/LVACFS_Configuration.txt
