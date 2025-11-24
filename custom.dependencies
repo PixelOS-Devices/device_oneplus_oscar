@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_oneplus_sm6375-common",
+    "target_path": "device/oneplus/sm6375-common"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_oneplus_oscar",
+    "target_path": "vendor/oneplus/oscar"
+  }
+]
