@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_oscar.mk
+    $(LOCAL_DIR)/custom_oscar.mk
