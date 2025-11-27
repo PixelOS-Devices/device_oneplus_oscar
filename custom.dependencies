@@ -20,5 +20,11 @@
     "repository": "beet-stuffs/kernel_oneplus_sm6375",
     "target_path": "kernel/oneplus/sm6375",
     "branch": "fifteen"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "pjgowtham/proprietary_vendor_oplus_camera",
+    "target_path": "vendor/oplus/camera",
+    "branch": "lineage-22.0"
   }
 ]
