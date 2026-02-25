@@ -60,6 +60,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Touch
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
+$(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm6375-common/common.mk)
