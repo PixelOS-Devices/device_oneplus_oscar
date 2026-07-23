@@ -7,5 +7,10 @@
     "remote": "gitlab",
     "repository": "NoPrincessHere/proprietary_vendor_oneplus_oscar",
     "target_path": "vendor/oneplus/oscar"
+  },
+  {
+    "repository": "PixelOS-AOSP/android_hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "sixteen-qpr2"
   }
 ]
