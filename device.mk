@@ -49,6 +49,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-custom
 
 PRODUCT_PACKAGES += \
+    ApertureResOscar \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
