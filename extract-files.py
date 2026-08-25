@@ -94,8 +94,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
-        .add_needed('libcamera_metadata_shim.so'),
     'vendor/lib64/libmidasserviceintf_aidl.so': blob_fixup()
         .remove_needed('android.frameworks.stats@1.0.so'),
 }  # fmt: skip
